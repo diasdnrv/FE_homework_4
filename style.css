@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+}
+
+#red {
+    background-color: rgb(252, 97, 97);
+    left: 200px;
+    top: 300px;
+    z-index: 40;
+}
+
+#green {
+    background-color: rgb(48, 249, 48);
+    left: 250px;
+    top: 150px;
+    z-index: 60;
+}
+
+#blue {
+    background-color: rgb(100, 100, 238);
+    left: 300px;
+    top: 5px;
+    z-index: 50;
+}
+
+#green {
+    width: 200px;
+    height: 200px;
+    transition: all 2s 0s ease;
+}
+
+#green:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(-45deg);
+}
